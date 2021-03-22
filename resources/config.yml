@@ -1,0 +1,8 @@
+---
+#Welcome to DeleteCommands configs! :D
+#This plugin was made by IvanCraft623
+
+#Commands to be deleted
+Commands:
+  - "example" #This is an example of how you should place the command (You should not put the command with "/").
+...
