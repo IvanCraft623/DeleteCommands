@@ -1,6 +1,6 @@
 ---
 name: DeleteCommands
-aurhor: IvanCraft623
+author: IvanCraft623
 description: Delete the commands from your server that you don't want!
 version: 1.0.0
 main: IvanCraft623\DeleteCommands\DeleteCommands
