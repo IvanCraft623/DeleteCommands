@@ -1,5 +1,5 @@
 # DeleteCommands
-A plugin for pocketmine that allows you to delete /unload unwanted commands.
+A plugin for pocketmine that allows you to delete / unload unwanted commands. The commands of the config.yml are deleted when starting the server, the message in the console only happens if a command could not be eliminated.
 
 # Config
 ``` YAML
