@@ -49,6 +49,7 @@ class DeleteCommands extends PluginBase {
 
 	public function deleteCommands() : void {
 		$commands = self::getConfigs("config")->get("Commands");
+		if ($commands === false) return;
 		foreach ($commands as $cmd) {
 			self::unregister($cmd);
 		}
