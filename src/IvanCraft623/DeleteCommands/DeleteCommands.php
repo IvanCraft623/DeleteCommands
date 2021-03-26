@@ -39,7 +39,7 @@ class DeleteCommands extends PluginBase {
 		return self::$instance;
 	}
 
-	public static function getConfigs(string $value) : config {
+	public static function getConfigs(string $value) : Config {
 		return new Config(self::getInstance()->getDataFolder() . "{$value}.yml", Config::YAML);
 	}
 
