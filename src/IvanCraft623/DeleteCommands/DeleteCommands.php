@@ -17,7 +17,10 @@ declare(strict_types=1);
 
 namespace IvanCraft623\DeleteCommands;
 
-use pocketmine\{Server, plugin\PluginBase, scheduler\ClosureTask, utils\Config};
+use pocketmine\Server;
+use pocketmine\plugin\PluginBase;
+use pocketmine\scheduler\ClosureTask;
+use pocketmine\utils\Config;
 
 class DeleteCommands extends PluginBase {
 
